@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <% include ./partials/metadata %>
+
+    <% if (locals.react && locals.react.inlineStyles) { %>
+    <style type="text/css"><%- locals.react.inlineStyles %></style>
+    <% } %>
+
+    <% include ./partials/stylesheets %>
+
+    <!-- #css -->
+    <!--<link rel="stylesheet" href="/styles/[hash].importer.css">-->
+    <!-- #end -->
+
+    <% include ./partials/analytics %>
+
+</head>
+<body>
+<!-- header -->
+<div class="row topmargin hide-for-small-only">
+  <div class="small-12 columns">
+    &nbsp;
+    <!-- <div class="navbutton">Home</div>
+    <div class="navbutton selected">Brand Genius</div>
+    <div class="navbutton">Legal Genius</div>
+    <div class="navbutton">Blog</div>
+    <div class="navbutton">Audio</div>
+    <div class="navbutton">About</div> -->
+  </div>
+</div>
+<div class="row show-for-small-only">
+  <div class="small-12 columns" style="text-align: center">
+    <img src="images/logo.png" style="width: 25%; margin-bottom: -10px">
+  </div>
+</div>
+<div class="row headline">
+  <div class="small-12 columns">
+    <div class="row headline1">
+      <div class="small-12 medium-5 columns">
+        <table class="justify">
+          <tbody>
+          <tr>
+            <td>B</td>
+            <td>U</td>
+            <td>S</td>
+            <td>I</td>
+            <td>N</td>
+            <td>E</td>
+            <td>S</td>
+            <td>S</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="hide-for-small-only medium-2 columns">
+        <img src="images/logo.png" class="shiplogo">
+      </div>
+      <div class="small-12 medium-5 columns">
+        <table class="justify">
+          <tbody>
+          <tr>
+            <td>L</td>
+            <td>A</td>
+            <td>U</td>
+            <td>N</td>
+            <td>C</td>
+            <td>H</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row headline2">
+      <div class="small-12 columns">
+        <table class="justify">
+          <tbody>
+          <tr>
+            <td>I</td>
+            <td>N</td>
+            <td>S</td>
+            <td>T</td>
+            <td>I</td>
+            <td>T</td>
+            <td>U</td>
+            <td>T</td>
+            <td>E</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row topmargin2">
+  <div class="small-12 columns">
+    &nbsp;
+  </div>
+</div>
+
+<div id="react-root"><%- body %></div>
+<% if (locals.react && locals.react.state) { %>
+    <script type="text/javascript"><%- 'window.__ReactInitState__ = ' + locals.react.state + ';' %></script>
+<% } %>
+<!-- #scripts -->
+<!-- #end -->
+</body>
+</html>

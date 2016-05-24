@@ -1,12 +1,16 @@
 To Start:
 
 (In one terminal:)
-webpack -w
+// webpack -w
+npm run build-watch
+
 
 (In another terminal:)
-webpack-dev-server --content-base dist/ --hot
+npm start
+// webpack-dev-server --content-base dist/ --hot --inline
 
 dependencies:
+- React templates
 - Flux
 - Babel-loader
 - webpack

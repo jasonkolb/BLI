@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "csrf": false,
+    "grunt": false,
+    "i18n": false,
+    "pubsub": false,
+    "sockets": false
+  },
+  "paths": {
+    "public": "assets"
+  }
+}
