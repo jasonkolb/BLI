@@ -42,8 +42,6 @@ function Layout(_ref) {
   return _react2.default.createElement(
     'div',
     null,
-    _react2.default.createElement('img', { alt: 'TeamFAX Logo', width: '120', height: '65', src: require('images/teamfa.png') }),
-    _react2.default.createElement(_nav2.default, null),
     children
   );
 }

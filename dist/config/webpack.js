@@ -91,7 +91,9 @@ var defaultConfig = {
   },
 
   module: {
-    loaders: [{
+    loaders: [
+    // {test: /\.rt$/, loaders: ['react-templates-loader?targetVersion=0.14.0'], include: path.join(__dirname, 'src')},
+    {
       test: /\.jsx?$/,
       exclude: /(node_modules|bower_components|sails-hook-react-router|sails-hook-react)/,
       loaders: ['react-hot'],

@@ -1,0 +1,7 @@
+<h1>I AM HOME</h1>
+
+<rt-virtual rt-repeat="n in [1,2,3]">
+  <li>{n}</li>
+  <li>{n*2}</li>
+</virtual>
+</ul>

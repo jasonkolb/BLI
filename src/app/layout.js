@@ -18,8 +18,6 @@ function Layout({ route, children }) {
 
   return (
     <div>
-      <img alt="TeamFAX Logo" width="120" height="65" src={require('images/teamfa.png')} />
-      <Nav />
       {children}
     </div>
   );
