@@ -18,8 +18,6 @@ var _home2 = _interopRequireDefault(_home);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var classNames = require('classnames');
-
 var propTypes = {};
 
 function Home() {
@@ -34,36 +32,36 @@ function Home() {
     ),
     _react2.default.createElement(
       'div',
-      { className: 'row mainForm' },
+      { 'class': 'row mainForm' },
       _react2.default.createElement(
         'div',
-        { className: classNames('small-12', 'medium-8', 'columns') },
+        { 'class': 'small-12 medium-8 columns' },
         _react2.default.createElement(
           'div',
-          { className: classNames('text-center') },
+          { 'class': 'text-center' },
           _react2.default.createElement(
             'a',
-            { href: 'brandgenius_step1.html', className: classNames('button') },
+            { href: 'brandgenius_step1.html', 'class': 'button' },
             'Get Started'
           )
         ),
         _react2.default.createElement(
           'div',
-          { className: 'row' },
+          { 'class': 'row' },
           _react2.default.createElement(
             'div',
-            { className: 'small-1 columns' },
+            { 'class': 'small-1 columns' },
             ' '
           ),
           _react2.default.createElement(
             'div',
-            { className: classNames('small-10', 'columns', 'infographic') },
+            { 'class': 'small-10 columns infographic' },
             _react2.default.createElement(
               'div',
-              { className: 'row infographicheader' },
+              { 'class': 'row infographicheader' },
               _react2.default.createElement(
                 'div',
-                { className: 'small-12 columns' },
+                { 'class': 'small-12 columns' },
                 _react2.default.createElement(
                   'h1',
                   null,
@@ -73,10 +71,10 @@ function Home() {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { 'class': 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'small-12 columns step' },
+                { 'class': 'small-12 columns step' },
                 _react2.default.createElement(
                   'h1',
                   null,
@@ -94,18 +92,18 @@ function Home() {
                 ),
                 _react2.default.createElement(
                   'div',
-                  { className: 'text-center' },
+                  { 'class': 'text-center' },
                   _react2.default.createElement('img', { src: 'images/step1.png' })
                 )
               )
             ),
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { 'class': 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'small-12 columns stepfooter' },
-                _react2.default.createElement('img', { src: 'images/down-arrow.png', className: 'downarrow' }),
+                { 'class': 'small-12 columns stepfooter' },
+                _react2.default.createElement('img', { src: 'images/down-arrow.png', 'class': 'downarrow' }),
                 _react2.default.createElement(
                   'p',
                   null,
@@ -115,10 +113,10 @@ function Home() {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { 'class': 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'small-12 columns step' },
+                { 'class': 'small-12 columns step' },
                 _react2.default.createElement(
                   'h1',
                   null,
@@ -139,11 +137,11 @@ function Home() {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { 'class': 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'small-12 columns stepfooter' },
-                _react2.default.createElement('img', { src: 'images/down-arrow.png', className: 'downarrow' }),
+                { 'class': 'small-12 columns stepfooter' },
+                _react2.default.createElement('img', { src: 'images/down-arrow.png', 'class': 'downarrow' }),
                 _react2.default.createElement(
                   'p',
                   null,
@@ -153,10 +151,10 @@ function Home() {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { 'class': 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'small-12 columns step' },
+                { 'class': 'small-12 columns step' },
                 _react2.default.createElement(
                   'h1',
                   null,
@@ -177,10 +175,10 @@ function Home() {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { 'class': 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'small-12 columns stepfooter' },
+                { 'class': 'small-12 columns stepfooter' },
                 _react2.default.createElement(
                   'p',
                   null,
@@ -190,10 +188,10 @@ function Home() {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'row infographicheader' },
+              { 'class': 'row infographicheader' },
               _react2.default.createElement(
                 'div',
-                { className: 'small-12 columns' },
+                { 'class': 'small-12 columns' },
                 _react2.default.createElement(
                   'h1',
                   null,
@@ -204,7 +202,7 @@ function Home() {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'small-1 columns' },
+            { 'class': 'small-1 columns' },
             ' '
           )
         ),
@@ -215,17 +213,17 @@ function Home() {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'text-center' },
+          { 'class': 'text-center' },
           _react2.default.createElement(
             'a',
-            { href: 'brandgenius_step1.html', className: 'button' },
+            { href: 'brandgenius_step1.html', 'class': 'button' },
             'Get Started'
           )
         )
       ),
       _react2.default.createElement(
         'div',
-        { className: 'small-12 medium-4 columns' },
+        { 'class': 'small-12 medium-4 columns' },
         _react2.default.createElement(
           'h1',
           null,
@@ -236,17 +234,17 @@ function Home() {
           null,
           _react2.default.createElement(
             'span',
-            { className: 'qa' },
+            { 'class': 'qa' },
             'Q:'
           ),
           ' How much does it cost?'
         ),
         _react2.default.createElement(
           'p',
-          { className: 'answer' },
+          { 'class': 'answer' },
           _react2.default.createElement(
             'span',
-            { className: 'qa' },
+            { 'class': 'qa' },
             'A:'
           ),
           ' It\'s completely free! We offer our tools as a free service to the community, our goal is to create a good relationship with you, the entrepreneur.'
@@ -256,17 +254,17 @@ function Home() {
           null,
           _react2.default.createElement(
             'span',
-            { className: 'qa' },
+            { 'class': 'qa' },
             'Q:'
           ),
           ' How can you run it for free?'
         ),
         _react2.default.createElement(
           'p',
-          { className: 'answer' },
+          { 'class': 'answer' },
           _react2.default.createElement(
             'span',
-            { className: 'qa' },
+            { 'class': 'qa' },
             'A:'
           ),
           ' We believe that by helping make ',

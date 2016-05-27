@@ -31,8 +31,8 @@ module.exports.routes = {
   * `assets` directory)                                                      *
   *                                                                          *
   ***************************************************************************/
-
-  'GET /google': 'http://www.google.com',
+  //
+  // 'GET /google': 'http://www.google.com',
 
   /***************************************************************************
   *                                                                          *
@@ -43,5 +43,7 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
+
+  'GET /track': 'TrackingController.Track'
 
 };

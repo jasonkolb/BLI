@@ -18,6 +18,10 @@ var _home = require('./pages/home');
 
 var _home2 = _interopRequireDefault(_home);
 
+var _privacy = require('./pages/privacy');
+
+var _privacy2 = _interopRequireDefault(_privacy);
+
 var _articles = require('./pages/articles');
 
 var _articles2 = _interopRequireDefault(_articles);
@@ -36,6 +40,7 @@ exports.default = _react2.default.createElement(
     { path: '/', component: _layout2.default },
     _react2.default.createElement(_reactRouter.IndexRoute, { component: _home2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: 'articles', component: _articles2.default, routingPreference: 'sails' }),
+    _react2.default.createElement(_reactRouter.Route, { path: 'privacy', component: _privacy2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: '*', component: _2.default })
   )
 );

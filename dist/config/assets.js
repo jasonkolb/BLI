@@ -1,1 +1,1 @@
-module.exports.assets = {"main":{"js":"http://localhost:3000/bundle-72dd447d55fe738eb95e.js"}};
+module.exports.assets = {"main":{"js":"http://localhost:3000/bundle-6bec8d602420f6810c06.js"}};
