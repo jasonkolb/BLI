@@ -8,15 +8,15 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _nav = require('./partials/nav.js');
+var _nav = require('./screens/LandingPage1/shared/nav.js');
 
 var _nav2 = _interopRequireDefault(_nav);
 
-var _normalise = require('styles/normalise.css');
+var _normalise = require('../assets/styles/normalise.css');
 
 var _normalise2 = _interopRequireDefault(_normalise);
 
-var _app = require('styles/app.css');
+var _app = require('../assets/styles/app.css');
 
 var _app2 = _interopRequireDefault(_app);
 
@@ -36,7 +36,7 @@ function Layout(_ref) {
   var children = _ref.children;
 
   if (__CLIENT__ && route && route.name) {
-    document.title = route.name.charAt(0).toUpperCase() + route.name.substr(1);
+    document.title = 'Business Launch Institute'; // route.name.charAt(0).toUpperCase() + route.name.substr(1);
   }
 
   return _react2.default.createElement(

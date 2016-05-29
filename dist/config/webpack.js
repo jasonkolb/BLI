@@ -204,7 +204,7 @@ var developmentClient = (0, _extend2.default)(true, {}, defaultConfig, {
 });
 
 var developmentServerBuild = (0, _extend2.default)(true, {}, defaultConfig2, {
-  entry: (0, _path.resolve)(__dirname, './../../src/app/routes'),
+  entry: (0, _path.resolve)(__dirname, './../../src/app/config/routes'),
 
   output: {
     path: (0, _path.resolve)(__dirname, './../../dist/.tmp/react-router'),

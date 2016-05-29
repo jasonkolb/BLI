@@ -1,4 +1,4 @@
-import routes from './routes';
+import routes from './config/routes';
 import clientRouter from 'sails-hook-react-router/lib/router/client';
 
 
@@ -10,5 +10,3 @@ clientRouter(
     isomorphicStyleLoader: true,
   }
 );
-
-

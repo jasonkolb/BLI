@@ -1,6 +1,6 @@
 'use strict';
 
-var _routes = require('./routes');
+var _routes = require('./config/routes');
 
 var _routes2 = _interopRequireDefault(_routes);
 

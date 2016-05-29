@@ -18,6 +18,16 @@ body {
 	background-size: 100%;
 }
 
+.tagline {
+    font-size: 18pt;
+    font-family: Verdana;
+    color: #8FA09F;
+    font-weight: bold;
+    margin-top: 42px;
+    margin-bottom: -8px;
+    font-style: italic;
+}
+
 .navbutton{
 	float: left;
 	margin: 10px;
@@ -332,7 +342,9 @@ body{
 
 	.navigation-title {
 		/* display: inline-block; */
-		margin: 24px 0 0 43px; padding: 0;
+		/*margin: 24px 0 0 43px; */
+    top-margin: 16px;
+    padding: 0;
 		text-align: center;
 		cursor: pointer;
 		/* -webkit-transition: all 0.3s linear;

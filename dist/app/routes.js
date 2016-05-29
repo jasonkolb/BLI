@@ -30,6 +30,10 @@ var _ = require('./pages/404');
 
 var _2 = _interopRequireDefault(_);
 
+var _index = require('./brand_genius/index');
+
+var _index2 = _interopRequireDefault(_index);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _react2.default.createElement(
@@ -41,6 +45,7 @@ exports.default = _react2.default.createElement(
     _react2.default.createElement(_reactRouter.IndexRoute, { component: _home2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: 'articles', component: _articles2.default, routingPreference: 'sails' }),
     _react2.default.createElement(_reactRouter.Route, { path: 'privacy', component: _privacy2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: 'brandgenius', component: _index2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: '*', component: _2.default })
   )
 );

@@ -1,3 +1,5 @@
+## Following the folder structure described at https://gist.github.com/ryanflorence/daafb1e3cb8ad740b346#how-it-works
+
 To Start:
 
 (In one terminal:)
@@ -10,7 +12,6 @@ npm start
 // webpack-dev-server --content-base dist/ --hot --inline
 
 dependencies:
-- React templates
 - Flux
 - Babel-loader
 - webpack

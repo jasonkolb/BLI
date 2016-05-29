@@ -18,6 +18,16 @@ body {
 	background-size: 100%;
 }
 
+.tagline {
+    font-size: 18pt;
+    font-family: Verdana;
+    color: #8FA09F;
+    font-weight: bold;
+    margin-top: 42px;
+    margin-bottom: -8px;
+    font-style: italic;
+}
+
 .navbutton{
 	float: left;
 	margin: 10px;

@@ -43,7 +43,7 @@ function Home() {
           { className: classNames('text-center') },
           _react2.default.createElement(
             'a',
-            { href: 'brandgenius_step1.html', className: classNames('button') },
+            { href: 'brandgenius', className: classNames('button') },
             'Get Started'
           )
         ),
@@ -218,7 +218,7 @@ function Home() {
           { className: 'text-center' },
           _react2.default.createElement(
             'a',
-            { href: 'brandgenius_step1.html', className: 'button' },
+            { href: 'brandgenius', className: 'button' },
             'Get Started'
           )
         )

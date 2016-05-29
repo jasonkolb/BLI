@@ -1,4 +1,5 @@
 /**
+* SAILS ROUTING - Server-side
  * Route Mappings
  * (sails.config.routes)
  *
@@ -44,6 +45,8 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  'GET /track': 'TrackingController.Track'
+  'GET /track': 'TrackingController.Track',
+  'GET /brandgenius': 'BrandGenius.index'
+
 
 };

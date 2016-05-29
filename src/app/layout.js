@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react';
-import Nav from './partials/nav.js';
-import Normalise from 'styles/normalise.css';
+import Nav from './screens/LandingPage1/shared/nav.js';
+import Normalise from '../assets/styles/normalise.css';
 
-import AppStyles from 'styles/app.css';
+import AppStyles from '../assets/styles/app.css';
 
 import withStyles from 'withStyles';
 
@@ -13,7 +13,7 @@ const propTypes = {
 
 function Layout({ route, children }) {
   if (__CLIENT__ && route && route.name) {
-    document.title = route.name.charAt(0).toUpperCase() + route.name.substr(1);
+    document.title = 'Business Launch Institute'; // route.name.charAt(0).toUpperCase() + route.name.substr(1);
   }
 
   return (
