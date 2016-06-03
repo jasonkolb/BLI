@@ -47,7 +47,6 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  'GET /track': 'TrackingController.Track',
-  'GET /brandgenius': 'BrandGenius.index'
+  'GET /track': 'TrackingController.Track'
 
 };

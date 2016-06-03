@@ -93,12 +93,15 @@ var defaultConfig = {
   module: {
     loaders: [
     // {test: /\.rt$/, loaders: ['react-templates-loader?targetVersion=0.14.0'], include: path.join(__dirname, 'src')},
+
+    // JK - commented this out, hoping it routes to webpack properly
+    // {
+    //   test: /\.jsx?$/,
+    //   exclude: /(node_modules|bower_components|sails-hook-react-router|sails-hook-react)/,
+    //   loaders: ['react-hot'],
+    //   include: resolve(__dirname, './../../src/app')
+    // },
     {
-      test: /\.jsx?$/,
-      exclude: /(node_modules|bower_components|sails-hook-react-router|sails-hook-react)/,
-      loaders: ['react-hot'],
-      include: (0, _path.resolve)(__dirname, './../../src/app')
-    }, {
       test: /\.jsx?$/,
       exclude: /(node_modules|bower_components|sails-hook-react-router|sails-hook-react)/,
       loader: 'babel',

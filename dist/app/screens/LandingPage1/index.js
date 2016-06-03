@@ -16,10 +16,16 @@ var _index = require('./shared/index.scss');
 
 var _index2 = _interopRequireDefault(_index);
 
+var _index3 = require('../BrandGenius/index');
+
+var _index4 = _interopRequireDefault(_index3);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 //
 // import Frdialogmodal from 'fr-dialogmodal';
+
+// SERVER-SIDE TEMPLATE!!!
 
 var classNames = require('classnames');
 
@@ -30,10 +36,11 @@ function Home() {
   return _react2.default.createElement(
     'div',
     null,
+    _react2.default.createElement(_index4.default, null),
     _react2.default.createElement(
       'p',
       null,
-      'Brand Genius is our power tool for entrepreneurs who are launching a new business. You\'re the expert on your business, and so Brand Genius will ask you questions to zero in on the perfect brand. Brand Genius uses proprietary algorithms to generate great, unique, and available names. It scours the Web and social networks for availability. Finally, it generates a sample logo and Web site for you to see what each option looks and feels like. It\'s fun to use, gives great results, and saves you a ton of time.'
+      'Brand Genius... is our power tool for entrepreneurs who are launching a new business. You\'re the expert on your business, and so Brand Genius will ask you questions to zero in on the perfect brand. Brand Genius uses proprietary algorithms to generate great, unique, and available names. It scours the Web and social networks for availability. Finally, it generates a sample logo and Web site for you to see what each option looks and feels like. It\'s fun to use, gives great results, and saves you a ton of time.'
     ),
     _react2.default.createElement(
       'div',

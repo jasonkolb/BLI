@@ -9,9 +9,8 @@
 
     <% include ./partials/stylesheets %>
 
-    <!-- #css -->
-    <!--<link rel="stylesheet" href="/styles/[hash].importer.css">-->
-    <!-- #end -->
+
+
     <% include ./partials/analytics %>
 
     <!-- I'm pretty sure bundle.js gets linked in here -->
@@ -144,8 +143,8 @@
 <% if (locals.react && locals.react.state) { %>
     <script type="text/javascript"><%- 'window.__ReactInitState__ = ' + locals.react.state + ';' %></script>
 <% } %>
-<!-- #scripts -->
-<!-- #end -->
+    <script async src="//localhost:3000/bundle-b7435db1723e4fd943c9.js"></script>
+
 </div>
 </div>
 

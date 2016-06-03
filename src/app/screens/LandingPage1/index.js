@@ -1,6 +1,14 @@
+// SERVER-SIDE TEMPLATE!!!
+// Referenced by /src/app/config/routes.js
+    // import LandingPage1 from '../screens/LandingPage1/index';
+
+
 import React, { PropTypes } from 'react';
 import withStyles from 'withStyles';
 import s from './shared/index.scss';
+
+import Registration from '../BrandGenius/index'
+
 //
 // import Frdialogmodal from 'fr-dialogmodal';
 
@@ -13,6 +21,7 @@ function Home() {
 
   return (
     <div>
+    <Registration />
     <p>
       Brand Genius is our power tool for entrepreneurs who are launching a new business. You're the expert on your business, and so Brand Genius will ask you questions to zero in on the perfect brand. Brand Genius uses proprietary algorithms to generate great, unique, and available names. It scours the Web and social networks for availability. Finally, it generates a sample logo and Web site for you to see what each option looks and feels like. It's fun to use, gives great results, and saves you a ton of time.
     </p>
